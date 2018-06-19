@@ -1,0 +1,10 @@
+import pandas as pd
+d={'name':['Harshit','Aditya'],'age':[21,21],'mail_id':['ha6546ha@gmail.com','aditya.mytech@gmail.com'],'phone':['7725986495','9865742310']}
+df = pd.DataFrame(d)
+print(df)
+
+output
+
+      name  age                  mail_id       phone
+0  Harshit   21       ha6546ha@gmail.com  7725986495
+1   Aditya   21  aditya.mytech@gmail.com  9865742310
